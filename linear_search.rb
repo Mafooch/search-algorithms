@@ -4,9 +4,9 @@ def linear_search(list_to_search, value_to_find)
   end
 end
 
-name_to_find = "James"
-names = IO.read('unordered_names.txt').split(',')
-
-found_at = linear_search(names, name_to_find)
-
-puts "Found '#{name_to_find}' at position #{found_at} in the list."
+# name_to_find = "James"
+# names = IO.read('unordered_names.txt').split(',')
+#
+# found_at = linear_search(names, name_to_find)
+#
+# puts "Found '#{name_to_find}' at position #{found_at} in the list."
